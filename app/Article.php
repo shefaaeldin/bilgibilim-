@@ -8,6 +8,9 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Article extends Model
 {
     
+    use SoftDeletes;
+
+    protected $dates = ['deleted_at'];
     
      protected $fillable = ['title', 'content','writer_id'];
     

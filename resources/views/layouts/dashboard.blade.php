@@ -62,10 +62,10 @@
                             <a href="{{route('dashboard_home')}}" ><i class="fa fa-shopping-cart"></i> <span class="nav-label">Writers</span></a>
                         </li>
                         <li>
-                            <a href="{{route('dashboard_home')}}" ><i class="fa fa-shopping-cart"></i> <span class="nav-label">Categories</span></a>
+                            <a href="{{route('category.index')}}" ><i class="fa fa-shopping-cart"></i> <span class="nav-label">Categories</span></a>
                         </li>
                          <li>
-                            <a href="{{route('dashboard_home')}}" ><i class="fa fa-shopping-cart"></i> <span class="nav-label">Tags</span></a>
+                            <a href="{{route('tag.index')}}" ><i class="fa fa-shopping-cart"></i> <span class="nav-label">Tags</span></a>
                         </li>
                     </ul>
 

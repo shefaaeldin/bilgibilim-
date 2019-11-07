@@ -21,5 +21,9 @@ Route::get('admin-login', 'Admin\Auth\LoginController@showLoginForm')->name('adm
 Route::post('admin-login', 'Admin\Auth\LoginController@login');
 Route::resource('articles', 'ArticleController');
 Route::get('ajax/articles', 'Ajax\ArticleAjaxController@index')->name('ajax.articles.index');
+Route::resource('category', 'CategoryController');
+Route::get('ajax/categories', 'CategoryController@index')->name('ajax.categories.index');
+Route::resource('tag', 'TagController');
+Route::get('ajax/tags', 'TagController@index')->name('ajax.tags.index');
 
 
